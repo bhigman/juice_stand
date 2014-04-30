@@ -1,0 +1,185 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Averia Sans Libre', cursive;
+	background-color: #333;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	color: #bbb;
+	padding: 10px 0 10px 0;
+	position: relative;
+}
+
+#pause {
+	position: absolute;
+	right: 15px;
+	top: 25px;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	color: #bbb;
+	padding-top: 10px;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper, button {
+	background: rgba(210,255,82,1);
+	background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
+	background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -o-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -ms-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: linear-gradient(to bottom, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0 );
+}
+
+#game {
+	padding:0px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 475px;
+	width: 320px;
+	overflow: auto;
+}
+
+section {
+	width: 150px;
+	margin: 0 5px;
+	float:left;
+}
+
+section > div {
+	position: relative;
+	margin-top: 10px;
+	height: 100px;
+	opacity: 0.8;
+
+	border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+	border: 1px solid #117a4a;
+
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+header > h1{
+	width: 95%;
+	display: inline-block;
+}
+
+header > i{
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	cursor: pointer;
+}
+
+section > div > i {
+	display: block;
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	border-right: 1px solid #117a4a;
+	text-align: center;
+}
+
+section > div > h2 {
+	text-align: center;
+	font-size: 0.8em;
+	border-bottom: 1px solid #117a4a;
+	padding: 5px 0;
+}
+
+section > div > p {
+	display: table-cell;
+	width: 150px;
+	height: 70px;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 1.7em;
+	text-align: center;
+	padding: 5px;
+}
+
+#stand {
+	background-color: #e74276;
+}
+
+#account{
+	background-color: #ff7a49;
+}
+
+#price {
+	background-color: #fffe49;
+}
+
+#updates {
+	background-color: #35bc7f;
+}
+
+#updates p {
+	vertical-align: bottom;
+	font-size: 0.5em;
+	text-align: right;
+}
+
+#stand p,
+#updates p {
+	height: 100px;
+}
+
+#stand i,
+#updates i {
+	border: none;
+}
+
+#separator {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+#hiddenForm{
+	/*display: none;*/
+}
+
+button {
+	border: none;
+	color: inherit;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin: 15px 44px;
+	outline: none;
+	padding: 25px 0;
+	text-align: center;
+	position: relative;
+	text-transform: uppercase;
+	width: 200px;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+.screen {
+	width: 280px;
+	text-align:center
+}
