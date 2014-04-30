@@ -1,0 +1,8 @@
+name:Octopod Juice Stand
+balance:20
+price:0.50
+customers:12
+starting:2014-05-26
+end: 2014-09-01
+juice:15.250
+fruit:10

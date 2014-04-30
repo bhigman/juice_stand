@@ -1,0 +1,100 @@
+html{
+	font-family: "Averia Sans Libre", "Times", "serif";
+}
+header, footer{
+	background-color: #333;
+	color: #bbb;
+	height: 8%;
+	padding-top: 20px;
+	margin: 0;
+	text-align: center;
+}
+#wrapper{
+	margin: 0;
+	padding: 0;
+	height: 80%;
+	background: rgba(210,255,82,1);
+	background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,255,82,1)), color-stop(100%, rgba(145,232,66,1)));
+	background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -o-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: -ms-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	background: linear-gradient(to bottom, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0 );
+}
+#game{
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#game section:nth-child(2){
+	float: right;
+}
+section{
+	width: 150px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+section  div{
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 100px;
+	border: 1px solid #117a4a;
+	border-radius: 0px 0px 10px 0px;
+	-moz-border-radius: 0px 0px 10px 0px;
+	-webkit-border-radius: 0px 0px 10px 0px;
+}
+section div p{
+	padding-top: 15%;
+	text-align: center;
+	font-size: 1.25em;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	margin: 0;
+}
+h2{
+	font-size: 0.8em;
+	margin: 0;
+	border-bottom: 1px solid #117a4a;
+}
+i{
+	padding: 5px;
+}
+h2 i{
+	border-right: 1px solid #117a4a;
+}
+section div#stand p{
+	padding-top: 0;
+}
+#updates{
+	text-align: left;
+	position: relative;
+	background-color: #35bc7f;
+}
+.updates{
+	font-size: 0.5em;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+#account{
+	background-color: #ff7a49;
+}
+#stand{
+	background-color: #e74276;
+}
+#price{
+	background-color: #fffe49;
+}
