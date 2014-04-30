@@ -1,0 +1,38 @@
+
+START
+
+14 Requests 272KB transfer
+ 
+1)  164ms (load: 154ms, DOM: 112ms)
+2)  170ms (load: 145ms, DOM: 117ms)
+3)  175ms (load: 165ms, DOM: 118ms)
+4)  164ms (load: 147ms, DOM: 113ms)
+5)  163ms (load: 145ms, DOM: 112ms)
+6)  161ms (load: 161ms, DOM: 110ms)
+7)  155ms (load: 137ms, DOM: 111ms)
+8)  158ms (load: 159ms, DOM: 113ms)
+9)  160ms (load: 142ms, DOM: 113ms)
+10) 160ms (load: 156ms, DOM: 115ms)
+Av) 163ms (load: 151ms, DOM: 113ms)
+
+FINISH
+
+10 requests 252kb transfer
+
+1)  153ms (load: 137ms, DOM: 110ms)
+2)  158ms (load: 158ms, DOM: 115ms)
+3)  151ms (load: 146ms, DOM: 111ms)
+4)  157ms (load: 158ms, DOM: 116ms)
+5)  161ms (load: 157ms, DOM: 117ms)
+6)  159ms (load: 158ms, DOM: 114ms)
+7)  153ms (load: 148ms, DOM: 112ms)
+8)  170ms (load: 171ms, DOM: 126ms)
+9)  166ms (load: 141ms, DOM: 117ms)
+10) 156ms (load: 140ms, DOM: 112ms)
+AV) 158ms (load: 151ms, DOM: 115ms)
+
+	The end impact of my changes was reducing total load time by 5 ms. This doesn't seem like 
+much but if the page were to get 5 million requests for the month that is a savings of 25,000,000ms.
+Which is 25,000 seconds, ~417 minutes, or ~6.9 hours of load time. I would say that it is obviously
+worthwhile to have made these changes. This application is so small already and inefficient in other
+ways that I am not sure if for this program it is worth the time, but gzipping at least is a no brainer.

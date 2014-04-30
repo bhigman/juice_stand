@@ -1,0 +1,8 @@
+# homework #6 - all rewrite goodness
+RewriteEngine on
+RewriteBase /~bchigman/juice-stand-hw6/
+RewriteRule ^profile/([0-9]+)$ profile.php?user_id=$1
+RewriteRule ^profile/css/(.*)$ css/$1
+RewriteRule ^profile/js/(.*)$ js/$1
+RewriteRule ^profile/css/((.*)\.png|\.gif)$ images/$1
+SetOutputFilter DEFLATE
